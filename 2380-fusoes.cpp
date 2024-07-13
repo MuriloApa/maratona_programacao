@@ -17,7 +17,7 @@ void uniao (int p, int q){
     if (p == q) return;
     if (sz[p] > sz[q]) swap(p, q);
     id[p] = q;
-    sz[q] =+= sz[p];
+    sz[q] += sz[p];
 }
 
 int main()
